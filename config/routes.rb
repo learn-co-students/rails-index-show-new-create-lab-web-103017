@@ -55,6 +55,6 @@ Rails.application.routes.draw do
   #   end
 
   resources :coupons, only: [:index, :new, :create]
-  get 'coupon/:id', to: 'coupons#show', as: 'coupon'
+  get 'coupons/:id', to: 'coupons#show', as: 'coupon'
 
 end
